@@ -1,0 +1,113 @@
+#team{
+    position: relative;
+    top: 10%;
+}
+.team-title{
+    text-align: center;
+}
+.role{
+    text-align: center;
+}
+#technical-team{
+    background-color: #;
+    padding: 25px;
+}
+.frame img{
+    width: 292px;
+    padding: 10px;
+    align-self: center;
+    float: left;
+    margin: 0 auto;
+       
+}
+.row-1{
+    margin: 0 19%;
+    position: relative;
+    bottom: 20px;
+}
+.row-3{
+    margin: 0 4%;
+    position: relative;
+    bottom: 20px;
+}
+
+.el{
+    height: 480px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.el1{
+    height: 445px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.el2{
+    height: 470px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#Abhishek{
+    padding: 3px;
+   
+}
+#Adarsh{
+    padding: 3px;
+}
+#Niwesh{
+    font-size: 28px;
+    padding: 3px;
+}
+#Milind{
+    font-size: 28px;
+    padding: 3px;
+}
+#Anshu{
+    font-size: 28px;
+    padding: 3px;
+}
+#KK{
+   
+    padding: 3px;
+}
+#KK h2{
+    font-size: 27px;
+     padding: 2px auto 1px auto;
+}
+#Priyadarshini{
+    font-size: 28px;
+    padding: 3px;
+}
+
+.name{
+   
+}
+.NAME{
+    font-size: 32px;
+    padding: 10px 0 3px 6px;
+    position: relative;
+    top: 10px;
+}
+.Mrole{
+    font-size: 16px;
+    font-family: Josefin Sans;
+    padding: 7px 7px 3px 7px;
+    color: #1B1C22;
+    opacity: 0.9;
+}
+.bar{
+    width: 288px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 2px;
+}

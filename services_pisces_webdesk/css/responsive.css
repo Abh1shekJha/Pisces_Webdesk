@@ -1,0 +1,455 @@
+/*=====================================
+        Bootstrap Media Queries
+=====================================*/
+
+/* large Devices (Desktops & Laptops) */
+@media(min-width: 1200px){
+    
+    /*---------------------------------------------
+                    Carousel
+    ---------------------------------------------*/
+#carousel-inner{
+    padding: 80px 200px 55px 200px;
+    background-color: #264653;
+}    
+    #navElements >li .odd{
+        
+        color: #fff;
+    }
+    #about-content-box-descr{
+    width: 500px; 
+    height: 250px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+    color: #022B3A; 
+    text-shadow: 1px 1px 1px black;
+    }
+    #cont-underline{
+    position: relative; 
+    right: 42%;
+    }
+    #navElements{
+        margin-left: 10%;
+    }
+    #NavName{
+        margin-left: 1%;
+    }
+
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #nav-bar{
+        height: 50px;
+        width: 100%;
+    }
+        
+    .navbar-header {
+        margin-left: 15px;
+    }
+    #NavName{
+        padding: 0;
+    }
+    #navImage{
+    margin: 0 0 0 15px;
+}
+    #NavName h5{
+        
+        margin: 0 1px;
+    }
+    #navButtonTog{
+        padding: 1% 2%;
+        
+        
+    }
+    #navElements >li >a{
+        text-align: center;
+        color: #2a9d8f;
+    }
+    #navElements >li .odd{
+        background-color: #6c757d;
+        color: yellow;
+    }    
+    
+    
+    
+    /*=========================================
+                Our Team
+    =========================================*/
+    .el{
+    height: 480px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 3% 20%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+    }
+    /*--------------------------------------
+        .el1{
+        height: 445px;
+        background-color: #fff;
+        padding: 8px;
+        margin: 3% 20%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        }
+        .el2{
+        height: 470px;
+        background-color: #fff;
+        padding: 8px;
+        margin: 3% 30%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        }
+    -------------------------------------------*/
+
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    
+    /*===========================================
+                    Header and Footer
+    ==========================================*/
+    #nav-bar{
+        height: 50px;
+        width: 100%;
+    }    
+    .navbar-header {
+        margin-left: 15px;
+    }
+    #NavName{
+        padding: 0;
+    }
+    #navImage{
+    margin: 0 0 0 18px;
+}
+    #NavName h5{
+        
+        margin: 0 1px;
+    }
+    #navButtonTog{
+        padding: 1% 2%;
+        
+        
+    }
+    #navElements >li >a{
+        text-align: center;
+        color: #2a9d8f;
+    }
+    #navElements >li .odd{
+        background-color: #6c757d;
+        color: yellow;
+    }
+     
+    
+      /*=========================================
+                Our Team
+    =========================================*/
+    .el{
+    height: 480px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 3% 20%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .el1{
+    height: 445px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 3% 20%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .el2{
+    height: 470px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 2% 30%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .content-title h3{
+       padding-left: 15%;
+    }
+    .role{
+        padding-left: 12%;
+        position: relative;
+        bottom: 20px;
+    }
+    .row-1{
+        position: relative;
+        bottom: 55px;
+    }
+    
+    .row-3{
+        position: relative;
+        bottom: 65px;
+    }
+}
+
+
+@media (max-width: 767px){
+    
+    
+    /*===========================================
+                    Header and Footer
+    ==========================================*/
+    #nav-bar{
+        height: 50px;
+        width: 100%;
+    }    
+    #home-heading h3{
+        font-size: 36px;
+        margin-top: 100px;
+    }
+    #home-heading h4{
+        font-size: 20px;
+    }
+    .navbar-header {
+        margin-left: 15px;
+    }
+    #NavName{
+        padding: 0;
+    }
+    #navImage{
+    margin: 0 0 0 15px;
+    }
+    #NavName h5{
+        
+        margin: 0 1px;
+    }
+    #navButtonTog{
+        padding: 1% 2%;
+        
+        
+    }
+    #navElements >li >a{
+        text-align: center;
+        color: #2a9d8f;
+    }
+    #navElements >li .odd{
+        background-color: #6c757d;
+        color: yellow;
+    }    
+        
+   
+    
+    /*=========================================
+                Our Team
+    =========================================*/
+    .el{
+    height: 480px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 3% 18%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .el1{
+    height: 445px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 3% 20%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .el2{
+    height: 470px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 2% 30%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .content-title h3{
+       padding: 0  10%;
+    }
+    .role{
+        padding-left: 12%;
+        position: relative;
+        bottom: 20px;
+    }
+    .row-1{
+        position: relative;
+        bottom: 55px;
+    }
+    
+    .row-3{
+        position: relative;
+        bottom: 65px;
+    }
+
+    .el{
+         
+         margin: 3% 0;
+    }
+    .el1{
+        margin: 3% 0;
+    }
+    .el2{
+        margin: 3% 18%;
+    }
+
+}
+
+/* Extra Small devices (Lansscape Phones & Portrait tabets)*/
+@media (max-width: 480px)
+{
+    
+    
+    #nav-bar{
+        height: 50px;
+        width: 100%;
+    }    
+    
+    .navbar-header {
+        margin-left: 15px;
+    }
+    #NavName{
+        padding: 0;
+    }
+    #navImage{
+    margin: 0 0 0 2px;
+}
+    #NavName h5{
+        
+        margin: 0 1px;
+    }
+    #navButtonTog{
+        padding: 1% 2%;
+        
+        
+    }
+    #navElements >li >a{
+        text-align: center;
+        color: #2a9d8f;
+    }
+    #navElements >li .odd{
+        background-color: #6c757d;
+        color: yellow;
+    
+    }
+    #about-desc{
+        padding-right:  30px;
+    }
+    #about-bg-diagonal{
+        border-left: 0;
+        border-top: 0;
+    }
+    #about-content-box-descr{
+        font-size: 18px;
+        width: 320px;
+        right: 40px;
+    }   
+    #about-content-box-descr-cont{
+        position: relative; 
+        bottom: 40px; 
+        color: black;
+        font-size: 20px;
+    }
+    #about-title-underline{
+        position: relative; 
+        right: 34%;
+    }    
+    
+    /*=========================================
+                Our Team
+    =========================================*/
+    .el{
+         
+        margin: 3% 0;
+        margin-right: 15px;
+        position: relative;
+        right: 25px;
+    }
+    .el1{
+        margin: 3% 0;
+        margin-right: 15px;
+        position: relative;
+        right: 25px;
+    }
+    .el2{
+        margin: 3% 18%;
+        margin-right: 15px;
+        position: relative;
+        right: 25px;
+    }
+    #photog{
+        margin-right: 50px;
+        position: relative;
+        right: 35px;
+    }
+    
+    #st2{
+        font-size:28px;
+    }
+}
+
+
+/* Small devices (Portrait Tablets & Portrait Tablets*/
+@media (max-width: 320px){
+    
+    #nav-bar{
+        height: 50px;
+        width: 100%;
+    }    
+    .navbar-header {
+        margin-left: 15px;
+    }
+    #navImage{
+    margin: 0 0 0 2px;
+    }
+    #NavName h5{
+        
+        margin: 0 1px;
+    }
+    #navButtonTog{
+        padding: 1% 2%;
+                
+    }        
+    #navElements >li >a{
+        text-align: center;
+        color: #2a9d8f;
+    }
+    #navElements >li .odd{
+        background-color: #6c757d;
+        color: yellow;
+    }
+     
+    /*=========================================
+                Our Team
+    =========================================*/
+   /**
+    .el{
+        align-content: center;
+        position: relative;
+        right: 50px;
+    }
+    .el1{
+        margin: 3% 0;
+        margin-right: 15px;
+        position: relative;
+        right: 50px;
+    }
+    .el2{
+        margin: 3% 18%;
+        margin-right: 15px;
+        position: relative;
+        right: 50px;
+    }
+    **/
+    #photog{
+        position: relative;
+        right: 35px;
+    }
+    
+}
+
+
+
+

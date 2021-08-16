@@ -1,0 +1,46 @@
+/*=====================================
+        Bootstrap Media Queries
+=====================================*/
+
+/* large Devices (Desktops & Laptops) */
+@media(min-width: 1200px){
+    
+    /* SAHI EVAM SEXY */
+    
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    
+}
+
+
+/* Small devices (Portrait Tablets & Portrait Tablets*/
+@media (max-width: 500px){
+    
+    #nav-bar{
+        height: 50px;
+        width: 100%;
+    }
+    
+    #home-heading h3{
+        font-size: 36px;
+        margin-top: 100px;
+    }
+    #home-heading h4{
+        font-size: 20px;
+    }
+    .navbar-header {
+        margin-left: 15px;
+    }
+    
+    #NavName h5{
+        
+        margin: 0 1px;
+    }
+    #navButtonTog{
+        padding: 0 7%;
+    }
+}
+

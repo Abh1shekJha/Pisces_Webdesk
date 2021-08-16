@@ -1,0 +1,464 @@
+/* -- Here we begin -- */
+
+/** ================================================================================
+                                                                DEFAULT VALUES
+
+                    Font-family: 'Rowdies' , cursive;           --> Headings
+                                 'Roboto Slab', serif;          -->Sub-headings
+                                 'Josefin Sans', sans-serif     --> body
+                                 'Karma', serif                 --> Devnagri
+
+                    Color Scheme:
+                                #292F36 - Gunmetal (black)
+                                #022B3A - Gunmetal (darkblue)
+                                #437c90 - Tealblue
+                                #1F7A8C - Metallic seaweed
+                                #A52A2A - brown
+                                #E42535 - Rose Madder
+                                #FFFFFF - white
+                                #000000 - black
+                                #003049 - Prussian blue
+                                #1B1C22 - Raisin Black
+====================================================================================*/
+
+/*===================================================
+                    GENERAL CSS                     
+===================================================*/
+html, body{
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Roboto Slab";
+    background-color: #F5F5F5;
+}
+body, body *{
+    font-family: "Josefin Sans", sans-serif; 
+    color: #292F36;
+}
+body h3{
+    font-family: 'Rowdies', cursive;
+    font-size: 45px;
+    font-weight: 400
+    color: #292F36;
+}
+body h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*===================================================
+                   Navbar                    
+===================================================*/
+
+#nav-bar{
+    height: 50px;
+}
+.navbar-brand img{
+    height: 44px;
+}
+.nav-link{
+    background-color: #343a40;
+    margin-top: 0;
+}
+.navbar-nav{
+    margin-top: 0;
+}
+#navElements{
+    padding-left: 0;
+}
+#navElements >li >a{
+    color: #fff;
+    font-size: 20px; font-weight: 600;
+}
+#collapsibleNavbar{
+    padding: 0;
+}
+
+#navImage{
+    margin: 0 0 0 2%;
+} 
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 6px 0px;
+  color: yellow;
+  text-shadow: 5px 5px 5px crimson;
+}
+
+
+/*===================================================
+                PARALLAX (Generic)
+===================================================*/
+
+.bg-parallax{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*===================================================
+                    ANIMATE
+===================================================*/
+
+#home-cover{
+animation-delay: .1s;
+animation-duration: .3s;
+}
+#home-heading{
+animation-delay: .1s;
+animation-duration: .3s;
+}
+#home-btn{
+animation-delay: .5s;
+animation-duration: .5s;
+}
+
+/*===================================================
+                    GLOW    
+===================================================*/
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1F7A8C, 0 0 40px #1F7A8C, 0 0 50px #1F7A8C, 0 0 60px #1F7A8C, 0 0 70px #1F7A8C;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #f1faee, 0 0 30px #f1faee, 0 0 40px #003049, 0 0 50px #7DCFB6, 0 0 60px #003049, 0 0 70px #003049, 0 0 80px #003049;
+  }
+}
+
+
+/*====================================================
+                Content (Generic)
+====================================================*/
+.content-box{
+   padding: 50px 20px 50px 0px; 
+}
+.content-title h3{
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #1B1C22;
+}
+.content-title-underline{
+    width: 80px;
+    height: 7px;
+    background-color: #E42535;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*=-------------------------------------------------------
+                    Home Carousel
+--------------------------------------------------------*/
+#home-carousel{
+    height: 100%;
+    width: 100%;
+}
+#carousel-inner{
+    padding: 80px 200px 55px 200px;
+    background-color: #264653;
+}
+    
+.carousel-item{
+    
+}
+#home-image-mobile{
+    display: none;
+}
+
+
+/*--------------------------------------------------------
+                    About Us
+---------------------------------------------------------*/
+.about-item-icon i{
+    margin: 0;
+    color: tomato;
+    padding: 5px;
+    
+}
+#about-icon-small{
+    margin: 0 46%;
+    display: none;
+}
+#about-icon{
+    margin: 0 44%;    
+}
+#contact-icon{
+    margin: 0 46%;    
+}
+#underline{
+    margin-bottom: 1%;
+}
+.about-item-desc{
+    margin-top: 15px;
+    padding: 9%;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #022B3A;
+    border-radius: 50px;
+}
+#about-us-para{
+    box-shadow: 20px 20px 10px #E42535;
+}
+#contact-us-para{
+    box-shadow: 20px 20px 10px #E42535;
+    padding: 5% 5% 1px 5%;
+}
+.servicon{
+    color: #022B3A;
+    margin: 0 44%;  
+}
+.about-item-desc p{
+    font-size: 130%;
+    font-weight: 600;
+    text-shadow: 1px 1px seagreen;
+    color: aliceblue;
+}
+.prop{
+    text-shadow: 1px 1px orange;
+    color: aliceblue;
+}
+
+/*--------------------------------------------------
+                    Services
+---------------------------------------------------*/
+.icard{
+    margin-bottom: 15px;
+}
+.service-item-desc p{
+    font-size: 130%;
+    font-weight: 400;
+    text-shadow: 1px 1px seagreen;
+    color: aliceblue;
+}
+.service-item{
+    
+    
+}
+.service-item-desc{
+    margin-top: 15px;
+    padding: 9%;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #022B3A;
+    border-radius: 50px;
+    height: 480px;
+}
+.service-item-desc h5{
+    color: yellow;
+    text-shadow: 1px 1px 2px orange;
+}
+#panel_2{
+    font-size: 85%;
+}
+#panel_3{
+    font-size: 84%;
+}
+/*---------------------------------------------------
+                Contact Us
+----------------------------------------------------*/
+#contact td{
+    padding: 5px 35px;
+    
+}
+#contact input{
+    padding: 6px 35px;
+    border-radius: 5px;
+    border: none;
+}
+#contact textarea{
+    padding: 6px 35px;
+    border-radius: 5px;
+    border: none;
+    width: 230%; height: 120px;
+}
+#em{
+    padding: 10px;
+    margin-left: 20px;
+}
+#call_back_form_small{
+    display: none;
+}
+/*===================================================
+                       Footer
+===================================================*/   
+#footer-bottom{
+    background-color: #022B3A;
+    padding: 30px 0;
+    margin-top: 4px;
+
+}
+#footer-copyrights p{
+    margin: 0;
+    color: #fff;
+}
+#footer-menu{
+    float: left;
+    color: #fff;
+}
+#footer-menu ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+#footer-menu ul li{
+    display: inline-block; 
+    color: aliceblue;
+}
+#footer-menu ul a {
+    display: inline-block; 
+    color: aliceblue;
+    font-weight: 700;
+    text-shadow: 2px black;
+    text-decoration: none;
+}
+#footer-menu ul a:hover {
+    
+    color: #F39B6D;
+    
+}
+#cont-underline{
+    position: relative; 
+    right: 38%;
+}
+#contact{
+    margin-bottom: 5%;
+}
+#contact h4, h5{
+    color: aliceblue;
+}
+    
+    
+    
+
+    
+/*===================================================
+                      Our Team
+===================================================*/      
+.member-img{
+    background-color: aqua;
+    height: 60%;
+    width: 40%;
+    margin-bottom: 100px;
+}
+.core{
+    width: 60%;
+    margin: 0 auto;
+}
+.team-content-box{
+     padding: 50px 20px 0px 0px; 
+}
+.team-content-box h3{
+    text-shadow: 3px 5px 3px teal;
+    font-size: 450%;
+    
+}
+.role{
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 250%;
+    font-style: normal;
+    text-shadow: 2px 1px 2px teal;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+#name h2{
+    font-size: 120%;
+    
+}
+#team{
+    position: relative;
+    top: 10%;
+}
+.team-title{
+    text-align: center;
+}
+.role{
+    text-align: center;
+}
+#technical-team{
+    background-color: #;
+    padding: 25px;
+}
+.frame img{
+    width: 292px;
+    padding: 10px;
+    align-self: center;
+    float: left;
+    margin: 0 auto;
+       
+}
+.row-1{
+    margin: 0 19%;
+    position: relative;
+    bottom: 20px;
+}
+.row-3{
+    margin: 0 4%;
+    position: relative;
+    bottom: 20px;
+}
+
+.el{
+    height: 480px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.el1{
+    height: 445px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.el2{
+    height: 470px;
+    background-color: #fff;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#Abhishek{
+    padding: 3px;
+   
+}
+#Adarsh{
+    padding: 3px;
+}
+
+
+.name{
+   
+}
+.NAME{
+    font-size: 32px;
+    padding: 10px 0 3px 6px;
+    position: relative;
+    top: 10px;
+}
+.Mrole{
+    font-size: 16px;
+    font-family: Josefin Sans;
+    padding: 7px 7px 3px 7px;
+    color: #1B1C22;
+    opacity: 0.9;
+}
+.bar{
+    width: 288px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 2px;
+}

@@ -1,0 +1,336 @@
+/* -- Here we begin -- */
+
+/** ================================================================================
+                                                                DEFAULT VALUES
+
+                    Font-family: 'Rowdies' , cursive;           --> Headings
+                                 'Roboto Slab', serif;          -->Sub-headings
+                                 'Josefin Sans', sans-serif     --> body
+                                 'Karma', serif                 --> Devnagri
+
+                    Color Scheme:
+                                #292F36 - Gunmetal (black)
+                                #022B3A - Gunmetal (darkblue)
+                                #437c90 - Tealblue
+                                #1F7A8C - Metallic seaweed
+                                #A52A2A - brown
+                                #E42535 - Rose Madder
+                                #FFFFFF - white
+                                #000000 - black
+                                #003049 - Prussian blue
+                                #1B1C22 - Raisin Black
+====================================================================================*/
+
+/*===================================================
+                    GENERAL CSS                     
+===================================================*/
+html, body{
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Roboto Slab";
+    background-color: #F5F5F5;
+}
+body, body *{
+    font-family: "Josefin Sans", sans-serif; 
+    color: #292F36;
+}
+body h3{
+    font-family: 'Rowdies', cursive;
+    font-size: 45px;
+    font-weight: 400
+    color: #292F36;
+}
+body h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*===================================================
+                PARALLAX (Generic)
+===================================================*/
+
+.bg-parallax{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*===================================================
+                    ANIMATE
+===================================================*/
+
+#home-cover{
+animation-delay: .1s;
+animation-duration: .3s;
+}
+#home-heading{
+animation-delay: .1s;
+animation-duration: .3s;
+}
+#home-btn{
+animation-delay: .5s;
+animation-duration: .5s;
+}
+
+/*===================================================
+                    GLOW    
+===================================================*/
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1F7A8C, 0 0 40px #1F7A8C, 0 0 50px #1F7A8C, 0 0 60px #1F7A8C, 0 0 70px #1F7A8C;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #f1faee, 0 0 30px #f1faee, 0 0 40px #003049, 0 0 50px #7DCFB6, 0 0 60px #003049, 0 0 70px #003049, 0 0 80px #003049;
+  }
+}
+
+
+/*====================================================
+                    HOME
+====================================================*/
+#home{
+    height: 100%;
+}
+#home-cover{
+    height: 100%;
+    background-image: url(../img/header/ABC.jpg);
+    
+}
+#home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table
+}
+#home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#home-heading h3{
+   /*color: #292F36;*/
+  font-size: 80px;
+  color: black;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1F7A8C, 0 0 40px #1F7A8C, 0 0 50px #1F7A8C, 0 0 60px #1F7A8C, 0 0 70px #1F7A8C;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out alternate;
+  -moz-animation: glow 1s ease-in-out alternate;
+  animation: glow 2s ease-in-out alternate;
+}
+#home-heading h4{
+color: #00120B;
+text-transform: capitalize;
+text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1F7A8C, 0 0 40px #1F7A8C, 0 0 50px #1F7A8C, 0 0 60px #1F7A8C, 0 0 70px #1F7A8C;
+-webkit-animation: glow 2s ease-in-out alternate;
+-moz-animation: glow 1s ease-in-out alternate;
+animation: glow 2s ease-in-out alternate;
+}
+#home-btn{
+    background-color: #292F36;
+    border: 1px solid black;
+    border-radius: 10%;
+    opacity: 0.9;
+    width: 100px;
+    height:60px;
+}
+#home-btn a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 6%;
+    font-size: 110%;
+}
+    
+
+/*====================================================
+                Content (Generic)
+====================================================*/
+.content-box{
+   padding: 50px 20px 50px 0px; 
+}
+.content-title h3{
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #1B1C22;
+}
+.content-title-underline{
+    width: 80px;
+    height: 7px;
+    background-color: #E42535;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/*===================================================
+                    Popular
+===================================================*/
+.popular-item{
+    padding: 5px 0 10px 0; 
+    margin: 10px 15px 10px 10px;
+    background-color: #98C1D9;
+    height: auto;
+    width: 100%;    
+}
+.popular-item-head{
+    background-color: #FFEDC2;
+}
+.popular-item-icon i{
+    margin: 20px 10px 5px 20px;
+    color: teal;
+    background-color: #E0FBFC;
+    padding: 10px;
+    float: left;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.popular-item:hover .popular-item-icon i{
+    color: crimson;
+    background-color:#292F36 ;
+}
+.popular-item-title h3{
+    font-size: 46px;
+    font-weight: 700;
+    margin: 42px 5px 0 5px;
+}
+.popular-item-title h4{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 5px 5px 5px;
+}
+.popular-item-desc p{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #E0FBFC;
+}
+#popular-btn{
+    background-color: #1F7A8C;
+    border-radius: 0;
+    opacity: 0.8;
+    width: 150px;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    font-weight: 400;
+}
+#popular-btn a{
+    text-decoration: none;
+    color: #E0FBFC;
+    text-align: center;
+}
+
+
+/*===================================================
+                    Blog Post
+===================================================*/
+.blogpost-container{
+    background-color: #e9c46a;
+    border-top-right-radius: 70%;
+    border-bottom-left-radius: 70%;;    
+    padding: inherit;
+    
+}
+#blogpost-container-outer{
+    background-color: #e76f51;
+    padding-left:0px;
+    padding-right: 0px;
+    margin-bottom: 10%;
+}
+.blogpost-item{
+    padding: 5px 0 10px 0; 
+    margin-left: 4%;
+    margin-right: 1%;
+}
+.blogpost-item-icon i{
+    margin-left: 1%;
+    margin-top : 2%;
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    color: teal;
+    background-color: #E0FBFC;
+    padding: 10px;
+    float: left;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.blogpost-item:hover .blogpost-item-icon i{
+    color: crimson;
+    background-color:#292F36 ;
+}
+.blogpost-item-title h3{
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
+.blogpost-item-title h4{
+    margin-top: 0;
+}
+.blogpost-item-desc p{
+    margin-top: 4%;
+    margin-right: 5%;
+    padding: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    background-color: burlywood;
+    opacity: 0.9;
+    border-bottom-right-radius: 22%;
+    border-top-left-radius: 22%;
+}
+#blogpost-btn{
+    background-color: #1F7A8C;
+    border-radius: 0;
+    opacity: 0.9;
+    width: 150px;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 2% 0 4% 0;
+}
+#blogpost-btn a{
+    text-decoration: none;
+    color: #E0FBFC;
+    text-align: center;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

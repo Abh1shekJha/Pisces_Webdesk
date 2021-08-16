@@ -1,0 +1,385 @@
+/*------------------------------------------------
+                Responsive upgrade
+-------------------------------------------------*/
+
+/*-- large Devices (Desktops & Laptops) --*/
+@media(min-width: 1400px){
+    
+    /*----- SAB SET HAI -----*/
+}
+@media(min-width: 1200px){
+    
+    #home-carousel{
+        background-color: #022B3A;
+    }  
+    
+}
+
+
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px){
+/* -x-x-x- Carousel -x-x-x- */
+
+    #carousel-inner{
+        
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 9%;
+    
+    }
+    #about-us{
+        margin-top: 10%;
+    }
+    #about-icon{
+        display: none;
+    }
+    #about-icon-small{
+    
+    display: block;
+    
+    }
+    #panel_1 p{
+        font-size: 110%;
+    }
+
+
+    
+}
+
+
+
+
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px){
+    
+    /* -x-x-x- Carousel -x-x-x- */
+
+    #carousel-inner{
+        
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 9%;
+    
+    }
+    #about-us h3{
+        padding: 0;
+    }
+     #about-icon{
+        display: none;
+    }
+    #about-icon-small{
+    
+    display: block;
+    margin: 0 45%;
+    
+    }
+    #about-us-para{
+        padding: 6%;
+    }
+    
+    #services h3{
+        padding: 0;
+    }
+    #services .content-box{
+        height: 690px;
+    }
+    .service-item-desc{
+        height: 80%;
+    }
+    .service-item-desc p{
+        font-size: 14px;
+    }
+    #contact-us h3{
+        padding: 0;
+    }
+    #contact-icon{
+        margin: 0 45%;
+    }
+    #query h3{
+        padding: 0;
+    }
+    #team h3{
+     
+        letter-spacing: 5px;
+    }
+    #team .content-title-underline{
+        
+    margin: 3% 50%;
+    width: 150px;
+
+    }
+    .el{
+        
+    margin-top: 30px;
+
+    }
+}
+
+
+
+
+/*Tablets and small screens */
+@media (max-width: 767px){
+
+/* -x-x-x- Carousel -x-x-x- */
+
+    #carousel-inner{
+        
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 9%;
+    
+    }
+    #about-us h3{
+        padding: 0;
+    }
+     #about-icon{
+        display: none;
+    }
+    #about-icon-small{
+    
+    display: block;
+    margin: 0 43%;
+    
+    }
+    #about-us-para{
+        padding: 6% 10%;
+        font-size: 86%;
+    }
+    
+    #services h3{
+        padding: 0;
+    }
+    #services .content-box{
+        height: 690px;
+    }
+    .service-item-desc{
+        height: 80%;
+    }
+    .service-item-desc p{
+        font-size: 14px;
+    }
+    #contact-us{
+        margin-top: 150%;
+    }
+    #contact-icon{
+        margin: 0 43%;
+    }
+    #call_back_form input{
+      
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+    #call_back_form textarea{
+      
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+}
+
+@media (max-width: 720px){
+/* -x-x-x- Carousel -x-x-x- */
+
+    #carousel-inner{
+        
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 9%;
+    
+    }
+    #about-us h3{
+        padding: 0;
+    }
+     #about-icon{
+        display: none;
+    }
+    #about-icon-small{
+    
+    display: block;
+    margin: 0 43%;
+    
+    }
+    #about-us-para{
+        padding: 6% 10%;
+        font-size: 86%;
+    }
+    
+    #services h3{
+        padding: 0;
+    }
+    #services .content-box{
+        height: 690px;
+    }
+    .service-item-desc{
+        height: 80%;
+    }
+    .service-item-desc p{
+        font-size: 14px;
+    }
+    #contact-us{
+        margin-top: 160%;
+    }
+    #contact-icon{
+        margin: 0 43%;
+    }
+    #call_back_form input{
+      
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+    #call_back_form textarea{
+      
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+}
+
+
+/* Extra Small devices (Lansscape Phones & Portrait tabets)*/
+@media (max-width: 501px){
+
+    #home-carousel{
+        display: none;
+    }
+    #home-image-mobile{
+        display: block;
+        background-color: #264653;
+    }
+    #home-image-mobile img{
+        display: block;
+        width:100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0;
+        padding-bottom: 6%;
+    }    
+    #about-us h3{
+        font-size: 32px;
+    }
+    #services h3{
+        font-size: 32px;
+    }
+    #contact-us h3{
+        font-size: 32px;
+    }
+    #query h3{
+        font-size: 32px;
+    }
+    #team h3{
+        font-size: 32px;
+    }
+    
+    #about-icon-small{
+    
+    display: block;
+    margin: 0 42%;
+    
+    }
+    #about-us-para p{
+        font-size: 16px;
+    }
+    #contact-us{
+        margin-top: 200%;
+    }
+    #contact-icon{
+        margin: 0 42%;
+    }
+    #call_back_form td{
+        padding: 3%;
+    }
+    #call_back_form input{
+      
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+    #call_back_form textarea{
+    width: 270px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+    .row-1{
+        margin: 0 15%;
+        padding: 0 auto;
+    }
+     #call_back_form{
+        display: none;
+    }
+    #call_back_form_small{
+        display: block;
+    }
+     #em h5{
+        font-size: 14px;
+    }
+     #team{
+        display: none;
+    }
+}
+
+@media (max-width: 320px){
+    
+    #about-icon-small{
+    
+    display: block;
+    margin: 0 25%;
+    
+    }
+    #contact-icon{
+        margin: 0 25%;
+    }
+    #query-icon{
+        margin: 0 25%;
+    }
+    #call_back_form_small input{
+      
+    padding: 8px 11px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+    #call_back_form_small textarea{
+      
+    padding: 8px 11px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    }
+    #contact-us h5{
+        font-size: 28px;
+    }
+    #technical-team{
+        padding: 10px 5%;
+    }
+    #call_back_form{
+        display: none;
+    }
+    #call_back_form_small{
+        display: block;
+    }
+    #em h5{
+        font-size: 14px;
+    }
+    #team{
+        display: none;
+    }
+}
+
+
+
+
+
