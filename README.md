@@ -1,7 +1,8 @@
 # Pisces_Webdesk
  
 > This website was built as a freelanced personal project. It is basically divided into two sub-domains the first contained the content like poetries, short stories, blog, educational content, videos, etc. 
-> The second subdomain was a portal where people could watch and contact the author to avail their services.
+> 
+> The second subdomain was a portal which displays the services like web-development, graphic designing, SEO and Ad Campaigns offered us where people could watch and contact to avail these services.
 
 ## CONTRIBUTION:
     ABHISHEK JHA  :  WEBSITE DESIGN & DEVELOPMENT
