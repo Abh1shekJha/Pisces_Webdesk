@@ -5,8 +5,9 @@
 > The second subdomain was a portal which displays the services like web-development, graphic designing, SEO and Ad Campaigns offered us where people could watch and contact to avail these services.
 
 ## CONTRIBUTION:
-    ABHISHEK JHA  :  WEBSITE DESIGN & DEVELOPMENT
-    ADARSH   JHA  :  GRAPHIC DESIGNER
+  > [ABHISHEK JHA](https://github.com/Abh1shekJha)  :  WEBSITE DESIGN & DEVELOPMENT
+   
+  > [ADARSH JHA](https://github.com/Adarsh23jha) :  GRAPHIC DESIGNER
 
 #### #Personal Project
 
